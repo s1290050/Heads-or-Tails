@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class s1290050ex4{
     public static void main(String[] args){
@@ -6,7 +7,14 @@ public class s1290050ex4{
 	String[] hts = {"Heads","Tails"} ;
 	
 	Random r = new Random();
+	Scanner sc = new Scanner(System.in);
 	int count=0;
+	System.out.println("Who are you?");
+	System.out.print(">");
+	String name = sc.nexLine();
+	System.out.println("Hello, "+name+"!");
+
+	
 	System.out.println("Tossing a coin...");
 	
 	for(int i = 0 ; i < 3 ; i++){
