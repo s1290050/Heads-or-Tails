@@ -18,6 +18,8 @@ public class s1290050ex4{
 	
 	int tcount = 3 - count;
 	System.out.println("Heads:"+count+", Tails:"+tcount);
+	if(count>tcount)System.out.println("You won.");
+	else System.out.println("You lost.");
 	
     }
 }
