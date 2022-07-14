@@ -11,7 +11,7 @@ public class s1290050ex4{
 	int count=0;
 	System.out.println("Who are you?");
 	System.out.print(">");
-	String name = sc.nexLine();
+	String name = sc.nextLine();
 	System.out.println("Hello, "+name+"!");
 
 	
